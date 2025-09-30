@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('/public/fonts/MyFont.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+.mobile-container {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.loading-icon {
+  font-size: 100px;
+  color: #ffffff;
+  animation: spin 2.2s linear infinite;
+}
+
+.coming-text {
+  color: white;
+  font-size: 5rem;
+  font-family: 'MyCustomFont', sans-serif;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

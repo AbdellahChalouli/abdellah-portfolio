@@ -1,0 +1,21 @@
+.myworkWeb-button {
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 0.4rem;
+  margin-top: 2rem;
+  background-color: black;
+  color: white;
+  font-family: 'MyCustomFont', sans-serif;
+  font-size: 1.5rem;
+  padding: 12px 30px;
+  border: 2px solid white;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  align-content: center;
+}
+
+
+.myworkWeb-button:hover {
+  box-shadow: 0 0 15px #00FFF8;
+}

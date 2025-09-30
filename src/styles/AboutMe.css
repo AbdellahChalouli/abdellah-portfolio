@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('/public/fonts/MyFont.otf') format('opentype');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0C3057;
+  font-family: 'MyCustomFont', sans-serif;
+}
+
+.about-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+  padding: 0 5%;
+}
+
+.about-title {
+  color: #00FFF8;
+  font-size: 3rem;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.about-text-section {
+  flex: 1;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.about-text {
+  color: white;
+  font-size: 1.3rem;
+  line-height: 1.8;
+  margin: 0;
+}
+
+.about-image-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-image {
+  max-width: 100%;
+  height: auto;
+  max-height: 400px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 255, 248, 0.3);
+}
+
+.highlight {
+  color: #00FFF8;
+  font-weight: bold;
+}
+
+.mywork-button {
+  background-color: black;
+  color: white;
+  font-family: 'MyCustomFont', sans-serif;
+  font-size: 1.5rem;
+  padding: 12px 30px;
+  border: 2px solid white;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  align-self: flex-start;
+}
+
+.mywork-button:hover {
+  box-shadow: 0 0 15px #00FFF8;;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .about-text-section {
+    text-align: center;
+  }
+  
+  .mywork-button {
+    align-self: center;
+  }
+  
+  .about-title {
+    font-size: 2.5rem;
+  }
+  
+  .about-text {
+    font-size: 1.1rem;
+  }
+}
