@@ -17,12 +17,12 @@ function HelloPage() {
         <span className="field-label">WEBDEV</span>
       </div>
 
-      <div className="field-option" onClick={() => navigate('/mobile')}>
+      {/* <div className="field-option" onClick={() => navigate('/mobile')}>
         <button className="icon-button">
           <FaMobileAlt className="btn-icon" />
         </button>
         <span className="field-label">MOBILE APP DEV</span>
-      </div>
+      </div> */}
 
       <div className="field-option" onClick={() => navigate('/ThreeDpage')}>
         <button className="icon-button">
