@@ -20,7 +20,7 @@ function AboutMe() {
         
         <div className="about-image-section">
           <img 
-            src="/path/to/your/image.png" 
+            src="me.png" 
             alt="Your Name - Developer" 
             className="about-image"
           />
